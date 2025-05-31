@@ -1,0 +1,18 @@
+{
+  "signals": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "timestamp": "2023-10-26T10:00:00Z",
+      "source_orchestrator": "uber-orchestrator",
+      "handoff_reason_code": "initial_project_setup",
+      "summary": "Project initialization: Uber orchestrator received initial project goal and is preparing to delegate to SPARC Specification phase."
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-2345-678901bcdef0",
+      "timestamp": "2023-10-26T10:05:00Z",
+      "source_orchestrator": "orchestrator-sparc-specification-master-test-plan",
+      "handoff_reason_code": "sparc_specification_delegation_research_planner",
+      "summary": "SPARC Specification orchestrator received task from UBER. Delegating initial strategic research to research-planner-strategic. User blueprint located at 'docs/user_blueprint.md'."
+    }
+  ]
+}
